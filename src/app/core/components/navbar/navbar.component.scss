@@ -1,0 +1,13 @@
+.navbar .nav-flex-icons {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+@media (max-width: 992px) {
+  .navbar .nav-link {
+    padding-right: 6px;
+    padding-left: 6px;
+  }
+}
