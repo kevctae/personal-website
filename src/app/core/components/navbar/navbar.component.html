@@ -1,24 +1,29 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <div class="container-fluid">
-    <span class="navbar-brand mb-0 h1">kevctae</span>
 
-    <button class="navbar-toggler" type="button" (click)="collapse.toggle()" [attr.aria-expanded]="!isCollapsed" aria-controls="navbarNavAltMarkup">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup" #collapse="ngbCollapse" [(ngbCollapse)]="isCollapsed">
-      <div class="navbar-nav mr-auto">
-        <a class="nav-link active" aria-current="page" href="#">Home</a>
-        <a class="nav-link" href="#">About</a>
-        <a class="nav-link" href="#">Projects</a>
-        <a class="nav-link" href="#">Contact</a>
+<div class="row justify-content-center" style="margin-top: 32px;">
+  <div class="col-10">
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+      <div class="container-fluid">
+        <span class="navbar-brand mb-0 h1">kevctae</span>
+    
+        <button class="navbar-toggler" type="button" (click)="collapse.toggle()" [attr.aria-expanded]="!isCollapsed" aria-controls="navbarNavAltMarkup">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup" #collapse="ngbCollapse" [(ngbCollapse)]="isCollapsed">
+          <div class="navbar-nav mr-auto">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="#">Projects</a>
+            <a class="nav-link" href="#">Contact</a>
+          </div>
+    
+          <div class="navbar-nav ml-auto nav-flex-icons">
+            <a class="nav-link" href="#"><img src="/assets/icons/github.svg" alt="GitHub" width="24" height="24"></a>
+            <a class="nav-link" href="#"><img src="/assets/icons/linkedin.svg" alt="LinkedIn" width="24" height="24"></a>
+            <a class="nav-link" href="#"><img src="/assets/icons/facebook.svg" alt="Facebook" width="24" height="24"></a>
+          </div>
+        </div>
       </div>
-
-      <div class="navbar-nav ml-auto nav-flex-icons">
-        <a class="nav-link" href="#"><img src="/assets/icons/github.svg" alt="GitHub" width="24" height="24"></a>
-        <a class="nav-link" href="#"><img src="/assets/icons/linkedin.svg" alt="LinkedIn" width="24" height="24"></a>
-        <a class="nav-link" href="#"><img src="/assets/icons/facebook.svg" alt="Facebook" width="24" height="24"></a>
-      </div>
-    </div>
+    </nav>
   </div>
-</nav>
+</div>
