@@ -5,6 +5,41 @@
   flex-direction: row;
 }
 
+.gray-1 {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 24px;
+  bottom: 0%;
+  height: 58.4px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+  margin-left: 104px;
+}
+
+.gray-2 {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 80px;
+  bottom: 0%;
+  height: 202.4px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+  .gray-1 {
+    height: 56px;
+  }
+}
+
+@media (min-width: 768px) {
+  .gray-2 {
+    display: none;
+  }
+}
+
 @media (max-width: 992px) {
   .navbar .nav-link {
     padding-right: 6px;

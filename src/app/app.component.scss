@@ -1,13 +1,13 @@
-#bgImg {
-    /* backgroundImage */
-  
-  
-    position: fixed;
-    left: 0%;
-    right: 0%;
-    top: 0%;
-    bottom: 0%;
-  
-    background: url(https://images.pexels.com/photos/103601/pexels-photo-103601.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
-    background-size: cover;
+#bg-img {
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/personal-website-d942c.appspot.com/o/images%2Fkevin.jpg?alt=media&token=a1a4be31-7ccb-415a-9fef-301d055f0d80");
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 426px) {
+  #bg-img {
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/personal-website-d942c.appspot.com/o/images%2Fkevin-1152x1536.jpg?alt=media&token=db7ea4cf-3419-405e-b077-e5fc82224f23");
   }
+}

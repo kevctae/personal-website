@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NgbCollapseModule, NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { PagesModule } from './pages/pages.module';
 import { NavbarComponent } from './core/components/navbar/navbar.component';
 
 @NgModule({
@@ -15,7 +16,8 @@ import { NavbarComponent } from './core/components/navbar/navbar.component';
     BrowserModule,
     AppRoutingModule,
     NgbModule,
-    NgbCollapseModule
+    NgbCollapseModule,
+    PagesModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
