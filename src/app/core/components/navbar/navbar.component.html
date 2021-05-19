@@ -1,0 +1,47 @@
+<div class="col">
+  <div class="row">
+    <div class="gray-1"></div>
+    <div class="gray-2 collapse navbar-collapse" [(ngbCollapse)]="isCollapsed"></div>
+  </div>
+</div>
+
+<nav class="navbar navbar-expand-md sticky-top navbar-light bg-light" style="top: 24px">  
+  <div class="container-fluid">
+    <span class="navbar-brand mb-0 h1">kevctae</span>
+
+    <button
+      class="navbar-toggler"
+      type="button"
+      (click)="collapse.toggle()"
+      [attr.aria-expanded]="!isCollapsed"
+      aria-controls="navbarNavAltMarkup">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    
+    <div
+      class="collapse navbar-collapse"
+      id="navbarNavAltMarkup"
+      #collapse="ngbCollapse"
+      [(ngbCollapse)]="isCollapsed">
+      <div class="navbar-nav mr-auto">
+        <a class="nav-link active" aria-current="page" href="#">Home</a>
+        <a class="nav-link" href="#">About</a>
+        <a class="nav-link" href="#">Projects</a>
+        <a class="nav-link" href="#">Contact</a>
+      </div>
+
+      <div class="navbar-nav ml-auto nav-flex-icons">
+        <a class="nav-link" href="#">
+          <img src="/assets/icons/github.svg" alt="GitHub" width="24" height="24">
+        </a>
+        <a class="nav-link" href="#">
+          <img src="/assets/icons/linkedin.svg" alt="LinkedIn" width="24" height="24">
+        </a>
+        <a class="nav-link" href="#">
+          <img src="/assets/icons/facebook.svg" alt="Facebook" width="24" height="24">
+        </a>
+      </div>
+    </div>
+  </div>
+</nav>
