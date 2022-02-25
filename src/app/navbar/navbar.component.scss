@@ -1,8 +1,23 @@
+header {
+  bottom: 24px;
+  mix-blend-mode: screen;
+}
+
+html:not([data-scroll='200']) {
+  header {
+    mix-blend-mode: none;
+  }
+}
+
 .navbar .nav-flex-icons {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -ms-flex-direction: row;
   flex-direction: row;
+}
+
+nav {
+  border-radius: 8px;
 }
 
 .gray-1 {

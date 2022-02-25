@@ -1,23 +1,27 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NgbCollapseModule, NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { PagesModule } from './pages/pages.module';
-import { NavbarComponent } from './core/components/navbar/navbar.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { HeroComponent } from './hero/hero.component';
+import { CommonModule } from '@angular/common';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
+    HeroComponent,
+    AboutComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     NgbModule,
     NgbCollapseModule,
-    PagesModule,
+    CommonModule,
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
