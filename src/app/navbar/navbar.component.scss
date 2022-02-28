@@ -3,6 +3,10 @@ header {
   filter: drop-shadow(0px 8px 8px rgba(0, 0, 0, 0.25));
 }
 
+.bg-color {
+  background-color:#f2f3f4;
+}
+
 .navbar .nav-flex-icons {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
@@ -17,41 +21,6 @@ header {
 
 nav {
   border-radius: 8px;
-}
-
-.gray-1 {
-  position: absolute;
-  left: 0%;
-  right: 0%;
-  top: 24px;
-  bottom: 0%;
-  height: 58.4px;
-  background: rgba(0, 0, 0, 0.5);
-  border-radius: 8px;
-  margin-left: 104px;
-}
-
-.gray-2 {
-  position: absolute;
-  left: 0%;
-  right: 0%;
-  top: 80px;
-  bottom: 0%;
-  height: 202.4px;
-  background: rgba(0, 0, 0, 0.5);
-  border-radius: 8px;
-}
-
-@media (max-width: 768px) {
-  .gray-1 {
-    height: 56px;
-  }
-}
-
-@media (min-width: 768px) {
-  .gray-2 {
-    display: none;
-  }
 }
 
 @media (max-width: 992px) {
