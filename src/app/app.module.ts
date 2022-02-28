@@ -7,6 +7,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { HeroComponent } from './hero/hero.component';
 import { CommonModule } from '@angular/common';
 import { AboutComponent } from './about/about.component';
+import { ProjectsComponent } from './projects/projects.component';
 
 @NgModule({
   declarations: [
@@ -14,6 +15,7 @@ import { AboutComponent } from './about/about.component';
     NavbarComponent,
     HeroComponent,
     AboutComponent,
+    ProjectsComponent,
   ],
   imports: [
     BrowserModule,
